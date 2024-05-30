@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.img img{
+    width: 600px;
+}
+.sub_box{
+    width: 35% ;
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+}
+.s_box1{
+    margin: 0;
+    padding: 0;
+}
+.s_box1 h1{
+    font-family: Tiemann, serif;    
+}
+.s_box2{
+    display: flex;
+    gap: 30px;
+}
+.s_box2 p{
+    margin: 0 0 20px 0 ;
+    padding: 0;
+}
+.s_box2 p:last-child{
+    color: red;
+}
+.large_btn button{
+    width: 80px;
+    height: 40px;
+    box-shadow: rgba(20, 21, 21, 0.4) 0px 0px 0px 2px, rgba(17, 17, 18, 0.65) 0px 4px 6px -1px, rgba(19, 18, 18, 0.08) 0px 1px 0px inset;
+    background: transparent;
+    border: none;
+    margin-top: 15px;
+}
+.bag_img_small img{
+    width: 40px;
+    border-radius: 100%;
+    margin: 15px 0;
+    border: solid ;
+}
+.add_card button{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: Futura, sans-serif;
+    font-size: 15px;
+}
+.free_stand{
+    color: red;
+}
+.by_with_shop button{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: Futura, sans-serif;
+    font-size: 15px;
+}
+.Payment_option{
+    font-size: 15px;
+}
+.Payment_option p:first-child{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Futura, sans-serif;
+    margin-bottom: 3px;
+}
+.Payment_option p:last-child{
+    text-align: start;
+    text-decoration: underline;
+    font-family: Futura, sans-serif;
+    margin-top: 0;
+}
+.Payment_option p:nth-child(2){
+    text-align: start;
+    font-family: Futura, sans-serif;
+    margin-top: 0;
+}
+.info_bag p{
+    text-align: start;
+    font-family: Futura, sans-serif;
+    margin-top: 0;
+    font-size: 15px;
+}
+.info_bag p:first-child{
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+.list li{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.list ul{
+    margin: 0;
+}
+.share_mail{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.share_mail img{
+    width: 30px;
+    height: 25px;
+}
+.share_mail img:hover{
+    cursor: pointer;
+}
