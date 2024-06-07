@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-Page</title>
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 15px;
+            margin: 10px 15px 10px 15px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #container div{
+            padding: 15px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border-radius: 10px;
+        }
+
+        #container div > button{
+            width: 250px;
+            height: 40px;
+            background-color:#ff9900;
+            border-radius: 15px;
+            border: none;
+            text-align: center;
+            font-weight: 700;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cart-Page</h1>
+    <a href="index.html">Go To >Home Page</a>
+    <div id="container"></div>
+
+    
+</body>
+<script src="cart-page.js"></script>
+</html>
