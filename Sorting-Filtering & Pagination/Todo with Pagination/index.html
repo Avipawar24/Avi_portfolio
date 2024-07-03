@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo with Pagination</title>
+    <style>
+    #container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 15px;
+    }
+
+    #container div{
+        border: 1px solid;
+        padding: 15px;
+    }
+    </style>
+</head>
+<body>
+    <select name="" id="sort">
+        <option value="">sort</option>
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+    </select>
+
+    <select name="" id="filter">
+        <option value="">Filter</option>
+        <option value="true">TrueValues</option>
+        <option value="false">FalseValues</option>
+    </select>
+    
+    <div id="container"></div>
+    <div id="pagination"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
