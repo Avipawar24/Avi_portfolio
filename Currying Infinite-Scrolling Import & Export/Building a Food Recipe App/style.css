@@ -1,0 +1,27 @@
+#home-page{
+    display: flex;
+    gap: 15px;
+}
+#navbar{
+    background-color: teal;
+    color: white;
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+#navbar a{
+    text-decoration: none;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+#main div{
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+}
