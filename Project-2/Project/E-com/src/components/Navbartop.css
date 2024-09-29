@@ -1,0 +1,39 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 30px;
+    background-color: #cc0001;
+    color: white;
+  }
+  .top-left-nav {
+    display: flex;
+    gap: 15px;
+    font-weight: 500;
+  }
+  .top-left-nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .top-right-nav {
+    display: flex;
+    gap: 20px;
+  }
+  .top-left-nav .backhover :hover {
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .nav-btn {
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+  }
+  .top-right-nav :nth-child(1) {
+    background-color: white;
+  }
+  .top-right-nav :nth-child(2) {
+    background-color: black;
+    color: white;
+  }

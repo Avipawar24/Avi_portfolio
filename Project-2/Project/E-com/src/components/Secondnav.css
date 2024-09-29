@@ -1,0 +1,35 @@
+.second-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px 0px;
+    align-items: center;
+    font-weight: 600;
+  }
+  .second-navbar img {
+    width: 40px;
+  }
+  .second-navbar .image{
+    border: 0.1rem dashed black;
+    padding: 5px 5px 1px 5px;
+    border-radius: 50%;
+  }
+  .second-navbar i {
+    font-size: 20px;
+  }
+  .searchbar {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(247, 242, 242);
+  }
+  .searchbar input {
+    width: 70%;
+    font-size: medium;
+    padding: 4px;
+    border: none;
+    background-color: rgb(247, 242, 242);
+  }
+  
